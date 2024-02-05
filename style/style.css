@@ -93,17 +93,21 @@ li {
 .banner-img > img {
   width: 100%;
 }
-
-.sponsors {
-  border: 2px solid red;
+.sponsors{
+    border: 2px solid red;
+}
+.sponsors-img {
   width: 80%;
   display: grid;
   grid-template-columns: repeat(9, 1fr);
-  gap: 35px;
+  margin: 150px auto;
   align-items: center;
+  border: 3px solid black;
 }
-.sponsors > img {
-  width: 50px;
+.sponsors-img > img {
+  width: 75px;
+  margin-right: 35px;
+
 }
 
 /* card-section style */
@@ -159,7 +163,12 @@ li {
 .fa-star {
   color: #fb8200;
 }
-
+.btn-secoundry{
+    border: none;
+    color: #E02C6D;
+    font-weight: 700;
+    font-size: 1rem;
+}
 /* featured-section style */
 
 .featured-section {
