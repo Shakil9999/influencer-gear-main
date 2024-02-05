@@ -19,6 +19,9 @@ img {
   padding: 10px 24px;
   border: none;
 }
+
+.btn-secoundry {
+}
 /* header style */
 
 /* nav style */
@@ -92,11 +95,12 @@ li {
 }
 
 .sponsors {
+  border: 2px solid red;
+  width: 80%;
   display: grid;
+  grid-template-columns: repeat(9, 1fr);
   gap: 35px;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 50px;
+  align-items: center;
 }
 .sponsors > img {
   width: 50px;
@@ -149,13 +153,82 @@ li {
 
 .card-container {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(3, 3fr);
   padding: 10px;
 }
 .fa-star {
   color: #fb8200;
 }
 
+/* featured-section style */
+
+.featured-section {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+  align-items: center;
+}
+
+.featured-img {
+  width: 400px;
+  height: 250px;
+}
+
+.featured-text {
+  width: 500px;
+}
+.featured-title {
+  color: #0a0826;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.featured-discription {
+  color: #6c6c6c;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.third-btn{
+    background: #E02C6D;
+    padding: 10px 24px;
+    border: none;
+}
+.third-btn >a{
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.footer{
+    background-color: #0A0826;
+    text-align: center;
+    color: #fff;
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.footer-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.footer-discription{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+.footer-icon{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
 /* reponsive style */
 
 /* for mobile */
