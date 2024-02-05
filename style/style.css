@@ -7,7 +7,9 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-
+img {
+  width: 100%;
+}
 .btn-primary {
   border-radius: 40px;
   color: #fff;
@@ -87,4 +89,86 @@ li {
 
 .banner-img > img {
   width: 100%;
+}
+
+.sponsors {
+  display: grid;
+  gap: 35px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+.sponsors > img {
+  width: 50px;
+}
+
+/* card-section style */
+.card-heading {
+  color: #3a3a3a;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.card-section {
+  padding: 50px 200px;
+}
+
+.card-title {
+  color: #18191f;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.card-price {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.star-icon > p {
+  color: #5e6366;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.card-discription {
+  color: #787885;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.card {
+  width: 350px;
+  height: 450px;
+}
+.card-img {
+  width: 250px;
+  height: 215px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.fa-star {
+  color: #fb8200;
+}
+
+/* reponsive style */
+
+/* for mobile */
+
+@media screen and (max-width: 576px) {
+  .nav {
+    flex-direction: column;
+  }
+  .banner-section {
+    flex-direction: column-reverse;
+  }
+  .banner-text {
+    margin-top: 50px;
+    text-align: center;
+  }
 }
